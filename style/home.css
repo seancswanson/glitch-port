@@ -10,6 +10,11 @@
     }
 }
 
+.nav-link:nth-child(1) {
+    color: white;
+    background: #118ab2;
+}
+
 .hello-hi {
     font-size: 18px;
     position: relative;

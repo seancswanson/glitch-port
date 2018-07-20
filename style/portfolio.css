@@ -17,11 +17,11 @@
 }
 
 .main-container {
+    display: inline-block;
+    width: auto;
+    height: auto;
     margin: 10px auto;
     padding: 10px;
-    display: inline-block;
-    height: auto;
-    width: auto;
 }
 
 .main-portfolio-title {
