@@ -12,7 +12,7 @@
     background: #ef476f;
 }
 
-.main-container {
+.main-content-container {
     display: inline-block;
     width: 100%;
     height: auto;
@@ -34,7 +34,15 @@
     box-shadow: 2px 2px 2px -1px rgba(0, 0, 0, .25);
 }
 
+.lighter-text {
+    font-weight: 100;
+}
+
 .main-connect-email {
+    color: white;
+}
+
+.connect-link {
     color: white;
 }
 
@@ -42,6 +50,10 @@
     width: 130px;
     transition: all .5s ease;
     border-radius: 100%;
+}
+
+.social-row a {
+    text-decoration: none;
 }
 
 .social-row-icon:hover {

@@ -1,5 +1,5 @@
 @media screen and (max-width: 650px) {
-    div.hello-hi {
+    div.main-home-textbox {
         float: none;
         width: 95%;
         margin: 20px auto;
@@ -15,7 +15,7 @@
     background: #118ab2;
 }
 
-.hello-hi {
+.main-home-textbox {
     font-size: 18px;
     position: relative;
     display: block;

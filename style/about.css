@@ -1,7 +1,7 @@
 /* Tablet? */
 
 @media screen and (max-width: 650px) {
-    div.main-about-me {
+    div.main-about-textbox {
         float: none;
         max-width: 90vw;
     }
@@ -16,7 +16,7 @@
     background: #b240d5;
 }
 
-.main-about-me {
+.main-about-textbox {
     font-size: 19px;
     position: relative;
     float: right;
@@ -33,6 +33,10 @@
     box-shadow: 2px 2px 2px -1px rgba(0, 0, 0, .25);
 }
 
+.main-about-textbox p {
+    margin: 10px;
+}
+
 .main-about__link {
     font-weight: bold;
     color: white;
@@ -44,10 +48,6 @@
     animation: 2s grow-shrink infinite;
     letter-spacing: 1px;
     color: gray;
-}
-
-.main-about-me p {
-    margin: 10px;
 }
 
 .sean-metal {
